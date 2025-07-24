@@ -11,6 +11,7 @@ This class have several methods to make your life easier :
   ```
   Then follow the instruction.
 - A **set_weights(list[int])** to set the weights on the edges
+- A **get_n_parameters()** to know how long the list you provide to set_weights() should be
 - A **save_struture(file_name)** to save the tree object as a binary object
 - A **draw()** to method to visualize the tree
 - A **compute_prob(event)** to compute the probability of an event   
