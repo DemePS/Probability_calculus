@@ -4,7 +4,7 @@ At the time I developed this package, I was working on a specific problem so you
 They correspond to the events whose probabilities I wanted to compute. So this class might not be useful as it is right now to your own problem.
 I need to find a way to make it more abstract so it can be reusable for another problem. However, if you test its functionalities you can see that they are working fine and the values are computed correctly.
 
-This class have several methods to make your life easier :
+This class has several methods to make your life easier :
 - A **build_struture()** method that is called when you create the object and build the structure of the tree (intended to be used only once). To create a Tree object, you need to provide a name for the root node. Example :
   ```python
   T=Tree("A")
@@ -18,7 +18,7 @@ This class have several methods to make your life easier :
 
 # To install the dependencies
 
-Make sure you have at least python3.10 installed on your machine then go to your working directory and follow these steps :
+Make sure you have at least python 3.10 installed on your machine then go to your working directory and follow these steps :
 
 ```bash
 python3 -m venv venv #to install your virtual environment
